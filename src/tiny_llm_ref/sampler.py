@@ -25,12 +25,3 @@ def make_sampler(temp: float, top_p: float, top_k: int | None):
     return sample
 
 
-export ANTHROPIC_BASE_URL=https://api.deepseek.com/anthropic
-export ANTHROPIC_AUTH_TOKEN=sk-8813e4494efc44b983a7b3a79f098854
-export ANTHROPIC_MODEL=deepseek-v4-pro[1m]
-export ANTHROPIC_DEFAULT_OPUS_MODEL=deepseek-v4-pro[1m]
-export ANTHROPIC_DEFAULT_SONNET_MODEL=deepseek-v4-pro[1m]
-export ANTHROPIC_DEFAULT_HAIKU_MODEL=deepseek-v4-flash
-export CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash
-export CLAUDE_CODE_EFFORT_LEVEL=max
-
